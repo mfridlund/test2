@@ -1,0 +1,180 @@
+
+    *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+    }
+ div.container{
+     border: 5px solid #c5b9a6;
+     width: 90%;
+     margin: 0 auto 0 auto;
+
+ }
+.slideshow {
+    margin-top: 25px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.slideshow a{
+    flex-basis: auto;
+}
+
+.cycle-slideshow img{
+ max-width: 100%;
+ 
+} 
+nav{
+
+}
+h1{
+ text-align: left;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-variant: small-caps;
+font-size: 4em;
+
+}
+h2{
+    text-align: left;
+
+}
+* {
+    margin: 3px;
+    padding: 0;
+  }
+   
+  nav {
+    margin: 50px;
+  }
+   
+  ul {
+   overflow: hidden;
+    list-style-type: none;
+  }
+   
+  li {
+    height: 25px;
+    float: right;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+  }
+   
+  li:last-child {
+    border-right: none;
+
+  }
+   
+  li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+   
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: #000;
+    
+  }
+   
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  Resources
+ul{
+ text-align: center;
+ display: flex;
+ list-style: none;
+ justify-content: space-evenly;
+}
+li{
+ display: inline-block;
+ width: 15%;
+ border: 1px;
+ line-height: 3em;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-variant: small-caps;
+}
+a{
+color: black;
+text-decoration: none;
+border: 1px;
+display: block;
+}
+footer{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.social{
+  display: flex;
+}
+
+@media  screen and (min-width: 200px) and (max-width: 480px){
+  header h1{
+    padding: .25em;
+    text-align: left;
+  }
+  nav{
+   font-size: 1.3em; 
+   width: 80%;
+   margin: 0 auto;
+  }
+  nav ul{
+    margin: 0;
+    padding: .1em;
+  }
+  nav li{
+    background-color: white;
+   border-radius: 1em; 
+   list-style-type: none;
+   width: 100%;
+   margin-bottom: 1em;
+   text-align: center;
+  }
+  nav a{
+    padding: .8em;
+    display: inline-block;
+    width: 100%;
+
+  }
+}
+@media  screen and (min-width: 481px) and (max-width: 768px){
+header h1{
+  padding: .6em;
+  text-align: left;
+}
+nav{
+ font-size: 1.4em;
+ background-color: white;
+ padding: 0;
+ margin: 0;
+}
+nav ul{
+  margin: 0;
+padding: 0;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+}
+}
